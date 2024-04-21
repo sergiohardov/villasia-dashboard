@@ -1,0 +1,23 @@
+#adminmenumain {
+  display: none;
+}
+#wpadminbar {
+  display: none;
+}
+#wpfooter {
+  display: none;
+}
+#wp-auth-check-wrap {
+  display: none;
+}
+#wpcontent {
+  margin: 0;
+  padding: 0;
+}
+#wpbody-content {
+  padding: 0;
+}
+
+html.wp-toolbar {
+  padding: 0;
+}
