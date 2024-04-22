@@ -3,6 +3,7 @@ import { SLICE } from "./constants";
 
 const initialState = {
   headerTitle: "Dashboard",
+  activeListItem: 0,
 };
 
 export const slice = createSlice({
@@ -12,8 +13,11 @@ export const slice = createSlice({
     setHeaderTitle: (state, { payload }) => {
       state.headerTitle = payload;
     },
+    setActiveListItem: (state, { payload }) => {
+      state.activeListItem = payload;
+    },
   },
 });
 
-export const { setHeaderTitle } = slice.actions;
+export const { setHeaderTitle, setActiveListItem } = slice.actions;
 export default slice.reducer;
